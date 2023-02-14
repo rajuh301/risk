@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Text</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <main>
+    <section>
+
+      <div class="grid text-center mx-auto w-4/5 bg-sky-500 mt-12 rounded">
+        <h1 class="font-semibold text-2xl mt-3">My Text Editor</h1>
+
+        <div class="w-4/5 bg-[#7dd3fc] text-center mx-auto mt-3 border-white rounded-lg mb-8">
+          <!-- --------------------------------------------------------- -->
+
+          <div class="md:flex gap-5 font-semibold ml-5 mt-3">
+            <button id="b" class="font-bold">B</button>
+            <button id="i" class="italic">I</button>
+            <Button id="u" class="underline">U</Button>
+            <!-- --------------------------------------------------------- -->
+            <div class="flex mt-1  gap-10 mx-36 ">
+
+              <i id="leftText" class="fa-solid fa-align-left"></i>
+              <i id="centerText" class="fa-solid fa-align-center"></i>
+              <i id="rightText" class="fa-sharp fa-solid fa-align-right"></i>
+
+              <i id="justifyText" class="fa-solid fa-align-justify"></i>
+
+            </div>
+            <!-- --------------------------------------------------------- -->
+
+            <div>
+              <input class="bg-blue-800 text-center text-white 
+              rounded h-5 w-10 border-white-800" type="number"
+                 id="quantity" min="1" max="5">
+            </div>
+            <h1>aA</h1>
+
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+            <div>
+              <input class="h-5" type="color" id="head" name="head" value="#000000">
+
+            </div>
+            <!-- --------------------------------------------------------- -->
+
+          </div>
+          <hr class="border mt-1">
+
+          <div>
+            <textarea class="mt-5 mb-5 w-[800px] h-[400px]" name="" id="inputText"></textarea>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+
+
+
+  <!-- ---------- js Area -------------- -->
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
